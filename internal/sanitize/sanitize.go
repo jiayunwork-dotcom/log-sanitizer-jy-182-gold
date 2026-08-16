@@ -104,7 +104,7 @@ var rePhone = regexp.MustCompile(`\b1[3-9]\d{9}\b`)
 
 func maskPhone(s string) string {
 	return rePhone.ReplaceAllStringFunc(s, func(m string) string {
-		return m[:3] + "****" + m[8:]
+		return m[:3] + "****" + m[7:]
 	})
 }
 
