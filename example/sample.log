@@ -1,0 +1,6 @@
+2026-01-02 10:15:03   INFO   user alice@example.com logged in from 192.168.1.100
+2026-01-02 10:15:04   WARN   failed SMS to 13812345678, retry scheduled
+2026-01-02 10:16:10   ERROR  payment for id 110101199003071234 rejected by gateway
+2026-01-02 10:18:22   INFO   webhook delivered to 10.0.0.5:9000 status=200
+2026-01-02 10:20:00   DEBUG request from 13900001111 attached to order ORD-7781
+extra   line   with    irregular    spacing   and trailing garbage
